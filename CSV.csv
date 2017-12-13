@@ -1,0 +1,10 @@
+Host,VM,Type
+vmw01.lab.local;vmw02.lab.local,serverdc01;serverdc02,AntiAffinity
+vmw01.lab.local;vmw02.lab.local,serverrdgw01;serverrdgw02,AntiAffinity
+vmw01.lab.local;vmw02.lab.local,serverrds01;serverrds02,AntiAffinity
+vmw01.lab.local;vmw02.lab.local,servermctx6;servermctx8,AntiAffinity
+vmw01.lab.local;vmw02.lab.local,servervmbr01;servervmplb01,AntiAffinity
+vmw02.lab.local,Fortimail-VM;serverexch01,Affinity
+vmw01.lab.local,serverfs,Host
+vmw01.lab.local,vcentersa,Host
+vmw02.lab.local,serverrds03,Host
